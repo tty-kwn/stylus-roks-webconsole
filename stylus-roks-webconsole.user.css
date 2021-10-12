@@ -13,5 +13,6 @@
 }
 
 @-moz-document domain("containers.cloud.ibm.com") {
-  body > pre {filter:blur(3px);}
+  body > pre:nth-child(4) {filter:blur(3px);}
+  body > pre:nth-child(6) {filter:blur(3px);}
 }
