@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Demo/Hands on for Red Hat OpenShift for IBM Cloud 
 @namespace      github.com/tty-kwn/stylus-roks-webconsole
-@version        0.2
+@version        0.3
 @description    Dynamic masking for Red Hat OpenShift for IBM Cloud Web Console with Stylus
 @author         Tetsuya Kawano
 @homepageURL    https://github.com/tty-kwn/stylus-roks-webconsole
@@ -15,4 +15,5 @@
 @-moz-document domain("containers.cloud.ibm.com") {
   body > pre:nth-child(4) {filter:blur(3px);}
   body > pre:nth-child(6) {filter:blur(3px);}
+  body > code {filter:blur(3px);}
 }
