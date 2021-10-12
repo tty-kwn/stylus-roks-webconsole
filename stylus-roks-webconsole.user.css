@@ -9,6 +9,5 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://console-openshift-console.kawano-cluster-tok04-ocp4-4216c78965aaa521311d0371fde68bf9-0000.jp-tok.containers.appdomain.cloud/") {
-  #co-username:not(:placeholder-shown){filter:blur(3px);}
-  .login-banner {filter:blur(5px);}
+  .co-username {filter:blur(3px);}
 }
