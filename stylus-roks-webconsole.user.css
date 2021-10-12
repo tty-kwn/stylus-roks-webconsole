@@ -8,10 +8,10 @@
 @license        Apache License 2.0
 ==/UserStyle== */
 
-@-moz-document domain("containers.appdomain.cloud/") {
+@-moz-document domain("containers.appdomain.cloud") {
   .co-username {filter:blur(3px);}
 }
 
-@-moz-document domain("containers.cloud.ibm.com:32013/oauth/token/display") {
+@-moz-document domain("containers.cloud.ibm.com:32013") {
   body > pre {filter:blur(3px);}
 }
