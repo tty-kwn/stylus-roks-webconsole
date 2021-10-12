@@ -12,6 +12,6 @@
   .co-username {filter:blur(3px);}
 }
 
-@-moz-document domain("containers.cloud.ibm.com:32013") {
+@-moz-document domain("containers.cloud.ibm.com") {
   body > pre {filter:blur(3px);}
 }
