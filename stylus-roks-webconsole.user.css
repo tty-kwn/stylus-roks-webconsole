@@ -11,3 +11,7 @@
 @-moz-document domain("containers.appdomain.cloud/") {
   .co-username {filter:blur(3px);}
 }
+
+@-moz-document domain("containers.cloud.ibm.com:32013/oauth/token/display") {
+  body > pre {filter:blur(3px);}
+}
